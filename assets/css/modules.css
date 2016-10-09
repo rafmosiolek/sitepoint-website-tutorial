@@ -263,7 +263,7 @@ testimonials
         font-size: 1.1111em;
         /* 20px/18px */
     }
-}
+} 
 
 
 
@@ -273,9 +273,120 @@ testimonials
 facts
 ---------------------------- */
 
+.facts { text-align: center; }
+
+.facts-intro__heading
+{
+    margin: 0 0 .3em;
+    font-size: 1.5625em;
+    /* 25px/16px */
+}
+
+.facts-intro__text
+{
+    margin: 0 0 2em;
+    /* 32px/16px */
+}
+
+.facts-list__heading
+{
+    margin: 0 0 .25em;
+    /* 4px/16px */
+    font-size: 1.5em;
+    /* 24px/16px */
+    font-weight: bold;
+}
+
+.facts-list__text { margin: 0; }
+
+.facts-list__icons
+{
+    display: block;
+    width: 70px;
+    height: 44px;
+    margin: 0 auto 1.3333em;
+    /* 24px/16px */
+    background-repeat: no-repeat;
+    background-image: url(../img/icon-sprite.png);
+}
+
+.facts-list__id { background-position: 0 0; }
+.facts-list__eye { background-position: 0 -44px; }
+.facts-list__timer { background-position: 0 -88px; }
+.facts-list__chart { background-position: 0 -132px; }
+
+@media (min-width: 45em)
+{
+    .facts-intro__heading
+    {
+        font-size: 1.8889em;
+        /* 34px/18px */
+        font-weight: normal;
+    }
+
+    .facts-intro__text
+    {
+        margin: 0 0 2em;
+        /* 50px/20px */
+        font-size: 1.1111em;
+        /* 20px/18px */
+    }
+
+    .facts-list__heading
+    {
+        font-size: 1.5556em;
+        /* 28px/18px */
+    }
+}
+
+
 /* ----------------------------
 press
 ---------------------------- */
+
+.press { text-align: center; }
+
+.press__heading
+{
+    margin-bottom: 1em;
+    /* 25px/25px */
+    color: #fff;
+    font-size: 1.5625em;
+    /* 25px/16px */
+}
+
+.press__logos { margin-bottom: 2em; }
+.press__logos--bevel { margin-bottom: 0; }
+
+@media (min-width: 38em)
+{
+    .press__heading
+    {
+        font-size: 1.8889em;
+        /* 34px/18px */
+        font-weight: normal;
+    }
+
+    .press__logos
+    {
+        float: left;
+        margin: 0 7.2% 0 0;
+    }
+
+    .press__logos--solveable { width: 17.88%; }
+    .press__logos--nc { width: 8.65%; }
+    .press__logos--waratah { width: 32.78%; }
+    .press__logos--bevel 
+    { 
+        width: 18.84%;
+        margin: 0;
+     }
+}
+
+
+
+
+
 
 /* ----------------------------
 footer
